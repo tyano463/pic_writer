@@ -3206,7 +3206,7 @@
 		(at 128.27 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a96b6968-eef6-42ce-9084-72d2ec888d11")
+		(uuid "cbc90dae-03f1-4630-8546-668b2c4871ad")
 	)
 	(junction
 		(at 199.39 33.02)
@@ -3408,7 +3408,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 82.55) (xy 128.27 86.36)
+			(xy 128.27 74.93) (xy 128.27 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4455,7 +4455,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 128.27 86.36 0)
+		(at 128.27 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4464,7 +4464,7 @@
 		(fields_autoplaced yes)
 		(uuid "3285f825-0748-4258-b7bd-853529c13d5a")
 		(property "Reference" "#PWR04"
-			(at 128.27 92.71 0)
+			(at 128.27 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,7 +4473,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 128.27 91.44 0)
+			(at 128.27 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +4481,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 86.36 0)
+			(at 128.27 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +4490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 86.36 0)
+			(at 128.27 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4499,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 128.27 86.36 0)
+			(at 128.27 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,76 +5631,6 @@
 			(project ""
 				(path "/97f72a07-973a-4672-98cd-d50a7c39c47d"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 128.27 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2c0c00a-3fbe-47d2-86a4-cc85140a465f")
-		(property "Reference" "R4"
-			(at 130.81 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_US"
-			(at 130.81 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.286 78.994 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 128.27 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "788fa0ca-744f-4f1b-b777-7a423807df21")
-		)
-		(pin "2"
-			(uuid "24adbcaa-93c4-453b-a3a6-59db44f7d0ac")
-		)
-		(instances
-			(project ""
-				(path "/97f72a07-973a-4672-98cd-d50a7c39c47d"
-					(reference "R4")
 					(unit 1)
 				)
 			)
