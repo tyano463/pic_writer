@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "uart.h": "c",
+        "esp_rom_sys.h": "c"
+    }
+}
